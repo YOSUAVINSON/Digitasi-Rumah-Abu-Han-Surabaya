@@ -49,16 +49,3 @@ Paradata merupakan komponen penting dalam dokumentasi digitasi warisan budaya. F
 *   **Etika Perlakuan**: Tindakan yang dilakukan untuk melindungi fisik objek asli selama proses digitalisasi.
 
 ---
-
-## 🎓 Tips Demonstrasi untuk Sidang Tugas Akhir
-
-### A. Demonstrasi "Data Retrieval" (Menampilkan Data)
-Anda dapat memprogram aplikasi Anda (atau mendemonstrasikan file JSON ini di GitHub) untuk menunjukkan bagaimana sistem Web/AR secara cerdas mengambil data dari file `metadata.json` secara dinamis:
-1.  Program membaca kunci tertentu, misalnya `"lukisan-pejabat-qing"`.
-2.  Sistem secara otomatis menampilkan `"author_name"`, `"year_made"`, `"material"`, dan `"description"` ke layar tanpa perlu mengetik ulang kode HTML Anda.
-
-### B. Demonstrasi "Data Entry" (Mengubah/Memasukkan Data)
-Untuk meyakinkan penguji bahwa sistem Anda dinamis dan siap digunakan oleh museum sungguhan:
-1.  Buka VS Code, edit teks di dalam `"description"` pada file `metadata.json`.
-2.  Lakukan simpan (Save) dan perbarui data.
-3.  Tunjukkan kepada penguji bahwa informasi yang ditampilkan di layar aplikasi Anda **langsung berubah secara otomatis** mengikuti perubahan di file JSON tersebut tanpa perlu melakukan kompilasi ulang program.
