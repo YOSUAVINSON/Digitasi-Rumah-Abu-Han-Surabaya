@@ -17,7 +17,7 @@ Proyek ini mencakup digitasi terhadap tiga artefak bersejarah berikut:
 Seluruh aset digitasi disusun secara terstruktur dengan susunan sebagai berikut:
 ```text
 D:\nitip\Project TUGAS AKHIR\Digitasi Artefak\
-├── README.md                 <-- Dokumen petunjuk akademis ini (Terupdate)
+├── README.md                 <-- Dokumen petunjuk akademis ini
 ├── 3d_models/                <-- Folder penyimpanan 3D model (.glb)
 │   ├── lukisan_pejabat.glb
 │   ├── pedupaan_perunggu.glb
