@@ -17,7 +17,7 @@ Proyek ini mencakup digitasi terhadap tiga artefak bersejarah berikut:
 Seluruh aset digitasi disusun secara terstruktur dengan susunan sebagai berikut:
 ```text
 D:\nitip\Project TUGAS AKHIR\Digitasi Artefak\
-├── README.md                 <-- Dokumen petunjuk akademis ini
+├── README.md                 <-- Dokumen petunjuk akademis ini (Terupdate)
 ├── 3d_models/                <-- Folder penyimpanan 3D model (.glb)
 │   ├── lukisan_pejabat.glb
 │   ├── pedupaan_perunggu.glb
@@ -33,19 +33,19 @@ D:\nitip\Project TUGAS AKHIR\Digitasi Artefak\
 
  Skema Data Proyek
 
- 1. Metadata Artefak (`metadata/metadata.json`)
+ 1. Metadata Artefak (metadata/metadata.json)
 Struktur file metadata ini disederhanakan agar fokus pada parameter utama yang umum digunakan. Format ini sangat ideal untuk demonstrasi Data Entry (memasukkan data baru) dan Data Retrieval (membaca/menampilkan data di program):
-*   **`author_name`** : Nama pembuat/pelukis/pembuat artefak asli (atau era asalnya).
-*   **`year_made`** : Tahun atau periode perkiraan pembuatan artefak fisik asli.
-*   **`material`** : Bahan fisik penyusun artefak asli.
-*   **`description`** : Deskripsi atau narasi singkat mengenai artefak tersebut.
+*   author_name : Nama pembuat/pelukis/pembuat artefak asli (atau era asalnya).
+*   year_made : Tahun atau periode perkiraan pembuatan artefak fisik asli.
+*   material : Bahan fisik penyusun artefak asli.
+*   description : Deskripsi atau narasi singkat mengenai artefak tersebut.
 
- 2. Paradata Proses (`metadata/paradata.json`)
+ 2. Paradata Proses (metadata/paradata.json)
 Paradata merupakan komponen penting dalam dokumentasi digitasi warisan budaya. File ini berisi rekaman riwayat teknis mengenai bagaimana dokumentasi digital ini dibuat, mulai dari tahap pengambilan foto, pengolahan data, hingga hasil akhir yang ditampilkan:
-*   **Peralatan**: Perangkat, lensa, dan pencahayaan yang digunakan saat perekaman.
-*   **Fase RAW**: Jumlah foto mentah, resolusi, dan format file asal yang diambil.
-*   **Fase Pemrosesan**: Perangkat lunak photogrammetry yang digunakan dan jumlah polygon mentah.
-*   **Penyuntingan & Optimasi**: Langkah retouching di Blender, pengurangan jumlah polygon (retopology/decimation), serta kompresi tekstur agar optimal untuk Web/AR.
-*   **Etika Perlakuan**: Tindakan yang dilakukan untuk melindungi fisik objek asli selama proses digitalisasi.
+*   Peralatan: Perangkat, lensa, dan pencahayaan yang digunakan saat perekaman.
+*   Fase RAW: Jumlah foto mentah, resolusi, dan format file asal yang diambil.
+*   Fase Pemrosesan: Perangkat lunak photogrammetry yang digunakan dan jumlah polygon mentah.
+*   Penyuntingan & Optimasi: Langkah retouching di Blender, pengurangan jumlah polygon (retopology/decimation) serta kompresi tekstur agar optimal untuk Web/AR.
+*   Perlakuan khusus: Tindakan yang dilakukan untuk melindungi fisik objek asli selama proses digitalisasi.
 
 ---
