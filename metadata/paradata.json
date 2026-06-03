@@ -1,0 +1,95 @@
+{
+  "paradata_skema_umum": {
+    "penjelasan": "Paradata adalah data tentang proses digitalisasi itu sendiri (bagaimana replika digital dibuat). Ini mencakup info alat, metode photogrammetry, penyuntingan mesh, hingga perlakuan etis terhadap artefak fisik asli selama proses perekaman.",
+    "standar_akademis": "The London Charter for the Computer-based Visualisation of Cultural Heritage"
+  },
+  "pedupaan-perunggu": {
+    "metode_digitalisasi": "Photogrammetry 3D (3D Reconstruction from Images)",
+    "peralatan_dan_perangkat_keras": {
+      "kamera": "[Contoh: DSLR Canon EOS 200D / Kamera Smartphone iPhone 13 Pro]",
+      "lensa": "[Contoh: Lensa Prime 50mm f/1.8 atau Lensa Bawaan]",
+      "pencahayaan": "[Contoh: Ring Light LED 2 Titik dengan Diffuser / Cahaya Alami Ruangan]",
+      "alat_bantu": "[Contoh: Turntable manual, Statif/Tripod, Penanda Skala/Scale Bar]"
+    },
+    "fase_perekaman_mentah_raw": {
+      "jumlah_foto_mentah": "[Contoh: 85 Foto]",
+      "format_file_asal": "[Contoh: RAW .CR2 / JPEG High-Res]",
+      "resolusi_per_gambar": "[Contoh: 6000 x 4000 piksel (24 MP)]",
+      "sudut_perekaman": "[Contoh: 3 putaran melingkar penuh (tinggi mata, sudut atas 45 derajat, sudut bawah 30 derajat)]"
+    },
+    "fase_pemrosesan_software": {
+      "perangkat_lunak_rekonstruksi": "[Contoh: RealityCapture / Polycam / Meshroom / Luma AI]",
+      "metode_alignment": "[Contoh: High Accuracy Feature Detection]",
+      "jumlah_point_cloud_mentah": "[Contoh: 1.200.000 titik (High Dense Cloud)]",
+      "jumlah_polygon_mentah_raw_mesh": "[Contoh: 800.000 Polygons]"
+    },
+    "fase_penyuntingan_dan_optimasi": {
+      "perangkat_lunak_editor_mesh": "[Contoh: Blender 4.0 / MeshLab]",
+      "tindakan_editing": [
+        "Pembersihan noise/mesh melayang di sekitar objek",
+        "Penambalan lubang otomatis (Hole Filling) pada dasar bejana",
+        "Penyederhanaan jumlah polygon (Decimation/Retopology) untuk performa web"
+      ],
+      "optimasi_tekstur": "[Contoh: Kompresi tekstur menjadi 2K (2048x2048 px) format JPG, baking peta normal (Normal Map) untuk mempertahankan detail ukiran]"
+    },
+    "spesifikasi_hasil_akhir": {
+      "format_file_akhir": "GLB (.glb)",
+      "jumlah_polygon_akhir": "[Contoh: 25.000 Polygons (Low-Poly optimized untuk WebAR)]",
+      "ukuran_file_akhir": "[Contoh: 4.8 MB]",
+      "tingkat_kemiripan_visual": "[Contoh: Sangat Tinggi (Akurat secara visual)]"
+    },
+    "perlakuan_dan_etika_artefak_fisik": {
+      "kontak_fisik": "[Contoh: Non-kontak penuh (tidak ada sensor fisik yang menyentuh artefak)]",
+      "keamanan_artefak": "[Contoh: Artefak diletakkan di atas alas beludru lembut pada turntable untuk mencegah gesekan]",
+      "kondisi_lingkungan": "[Contoh: Suhu ruangan stabil 24 derajat Celcius, lampu LED dingin digunakan untuk menghindari paparan panas yang dapat merusak material kuno]"
+    }
+  },
+  "lukisan-1": {
+    "metode_digitalisasi": "High-Resolution Image Capture & 3D Frame Modeling",
+    "peralatan_dan_perangkat_keras": {
+      "kamera": "[Contoh: Kamera Mirrorless Sony A7 III / Scanner Flatbed]",
+      "lensa": "[Contoh: Lensa Macro 90mm untuk detail tekstur sutra]",
+      "pencahayaan": "[Contoh: 2 Softbox Studio Light sudut 45 derajat untuk menghindari pantulan kaca bingkai]"
+    },
+    "fase_perekaman_mentah_raw": {
+      "jumlah_foto_mentah": "[Contoh: 1 Foto Utama Resolusi Tinggi + 5 Foto Detail Dekat]",
+      "format_file_asal": "[Contoh: RAW .ARW]",
+      "resolusi_per_gambar": "[Contoh: 7952 x 5304 piksel (42 MP)]"
+    },
+    "fase_penyuntingan_dan_optimasi": {
+      "perangkat_lunak_editor": "[Contoh: Adobe Photoshop (untuk koreksi warna dan kontras sesuai lukisan asli)]",
+      "pemodelan_3d_frame": "[Contoh: Menggunakan Blender untuk membuat model bingkai kayu 3D tipis, lalu menempelkan gambar lukisan hasil edit sebagai tekstur utama]"
+    },
+    "spesifikasi_hasil_akhir": {
+      "format_file_akhir": "GLB (.glb)",
+      "ukuran_file_akhir": "[Contoh: 2.1 MB]"
+    },
+    "perlakuan_dan_etika_artefak_fisik": {
+      "keamanan_artefak": "[Contoh: Lukisan tidak diturunkan dari bingkai pelindungnya untuk mencegah kelembapan udara luar merusak serat sutra sutra tua]"
+    }
+  },
+  "lukisan-2": {
+    "metode_digitalisasi": "High-Resolution Image Capture & 3D Frame Modeling",
+    "peralatan_dan_perangkat_keras": {
+      "kamera": "[Contoh: Kamera Mirrorless Sony A7 III]",
+      "lensa": "[Contoh: Lensa Macro 90mm]",
+      "pencahayaan": "[Contoh: 2 Softbox Studio Light dengan cross-polarization]"
+    },
+    "fase_perekaman_mentah_raw": {
+      "jumlah_foto_mentah": "[Contoh: 1 Foto Utama + 4 Foto Close-up Kaligrafi]",
+      "format_file_asal": "[Contoh: RAW .ARW]",
+      "resolusi_per_gambar": "[Contoh: 7952 x 5304 piksel]"
+    },
+    "fase_penyuntingan_dan_optimasi": {
+      "perangkat_lunak_editor": "[Contoh: Adobe Photoshop & Blender]",
+      "pemodelan_3d_frame": "[Contoh: Pembuatan bidang kanvas virtual di Blender dengan tekstur resolusi tinggi]"
+    },
+    "spesifikasi_hasil_akhir": {
+      "format_file_akhir": "GLB (.glb)",
+      "ukuran_file_akhir": "[Contoh: 2.3 MB]"
+    },
+    "perlakuan_dan_etika_artefak_fisik": {
+      "keamanan_artefak": "[Contoh: Proses pengambilan foto dilakukan tanpa menggunakan lampu flash berspektrum UV tinggi untuk mencegah pemudaran pigmen warna alami lukisan kuno]"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "artifact_id": "RAH-3D-01",
+  "title": "-",
+  "creator": "-",
+  "creation_year": "Estimasi: Sekitar tahun 1865 Masehi (Tahun ke-18 era Xianfeng/Xiankai, Tahun Yisi)",
+  "material": "Pigmen warna pada kertas/sutra, dibingkai kayu jati gelap",
+  "description": "Lukisan potret leluhur tradisional Tionghoa yang menggambarkan sosok pria lanjut usia memegang kipas, didampingi pelayan wanita di sampingnya yang membawa dokumen.",
+  "storage_location": {
+    "name": "Rumah Abu Keluarga Han (韓)",
+    "city": "Surabaya, Jawa Timur, Indonesia"
+  },
+  "data_status": {
+    "credibility": "Analisis — Data belum dikonfirmasi secara resmi oleh pemilik",
+    "source": "Analisis visual dan pembacaan teks inskripsi",
+    "notes": "Informasi resmi dari pihak keluarga Han belum diperoleh. Seluruh dimensi dan berat merupakan estimasi peneliti."
+  },
+  "dimensions": {
+    "height_with_frame_cm": "± 140-160 cm (estimasi)",
+    "width_with_frame_cm": "± 90-110 cm (estimasi)",
+    "weight_kg": "± 8-15 kg (estimasi)"
+  },
+  "inscription": {
+    "hanzi": "想公正作玉葉金枝相庇之覲陰虎眉覩性下就禮儀公史。率最重業長重一生大謹業大塞。兩廂教化循循專一范之孟循句由仁壽致人。咸開十八年，乙巳元月。(妻事，畫修)",
+    "creation_date": "Bulan pertama tahun Yisi, tahun ke-18 era Xianfeng/Xiankai (sekitar tahun 1865 Masehi)",
+    "translation": "Mendiang Tuan adalah sosok yang berintegritas dan berbudi luhur, lahir dari keturunan mulia. Beliau taat pada adat istiadat, merintis usaha dengan sukses, mendidik anak cucunya dengan sabar, dan dianugerahi usia panjang. Semoga kebajikannya menjadi teladan bagi keturunannya."
+  },
+  "function_and_usage": "Hanya digunakan sebagai hiasan rumah/aula keluarga; tidak digunakan untuk ritual keagamaan atau maksud ritual lainnya.",
+  "acquisition_source": "Koleksi Rumah Abu Keluarga Han (韓), Surabaya",
+  "conservation_status": "Kondisi fisik stabil, namun lukisan tidak dilindungi penutup kaca atau pelindung apapun sehingga mulai kotor berdebu dan beberapa bagian warna mulai sedikit pudar."
+}

@@ -1,0 +1,33 @@
+{
+  "artifact_id": "RAH-3D-01",
+  "title": "Pedupaan Perunggu (Fangding)",
+  "creator": "-",
+  "creation_year": "Estimasi: Era Dinasti Qing (1644-1912), reproduksi gaya kuno era Dinasti Shang/Zhou",
+  "material": "Perunggu cor (100% logam) dengan patina gelap mengkilap alami akibat paparan asap dupa selama puluhan tahun, diletakkan di atas alas tatakan kayu jati/hardwood gelap berukir terpisah.",
+  "description": "Sebuah wadah pedupaan berbentuk persegi berkaki empat yang dikenal sebagai Fangding. Dilengkapi dua gagang tegak di bagian atas dan dihiasi ukiran dekoratif kuno seperti Taotie dan Leiwen.",
+  "storage_location": {
+    "name": "Rumah Abu Keluarga Han (韓)",
+    "city": "Surabaya, Jawa Timur, Indonesia"
+  },
+  "data_status": {
+    "credibility": "Analisis — Data belum dikonfirmasi secara resmi oleh pemilik",
+    "source": "Analisis visual berdasarkan dokumentasi foto dan studi komparatif referensi akademis",
+    "notes": "Informasi resmi dari pihak keluarga Han belum diperoleh. Seluruh dimensi dan berat merupakan estimasi peneliti."
+  },
+  "dimensions": {
+    "height_with_stand_cm": "± 50-70 cm (estimasi)",
+    "height_censer_only_cm": "± 30-45 cm (estimasi)",
+    "width_cm": "± 25-35 cm (estimasi)",
+    "length_cm": "± 30-40 cm (estimasi)",
+    "weight_kg": "± 15-40 kg (estimasi)"
+  },
+  "motifs": [
+    "Taotie (饕餮) - Motif wajah monster mitologi pelindung",
+    "Leiwen (雷纹) - Motif spiral/petir latar belakang",
+    "Kui Dragon (夔龍) - Motif naga berkaki satu",
+    "Vertical Flanges - Tonjolan vertikal hiasan sudut"
+  ],
+  "function_and_usage": "Fangding berfungsi sebagai tempat sesaji dan dupa yang diletakkan di meja altar utama,digunakan saat upacara penghormatan leluhur.",
+  "acquisition_source": "Koleksi Rumah Abu Keluarga Han (韓), Surabaya",
+  "conservation_status": "Kondisi fisik stabil, namun tidak dilindungi penutup atau kaca pelindung sehingga mulai kotor berdebu dan permukaan perunggu mengalami oksidasi alami."
+}

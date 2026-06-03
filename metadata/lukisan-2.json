@@ -1,0 +1,30 @@
+{
+  "artifact_id": "RAH-3D-02",
+  "title": "-",
+  "creator": "-",
+  "creation_year": "Estimasi: Akhir Dinasti Qing (sekitar tahun 1850-1900 Masehi)",
+  "material": "Pigmen warna pada kertas/sutra, dibingkai kayu jati gelap dengan ukiran",
+  "description": "Lukisan potret pasangan suami-istri berpakaian pejabat resmi Dinasti Qing. Pria mengenakan Guanmao (topi pejabat) dan jubah bersulam Buzi (lencana pangkat), sedangkan wanita mengenakan Fengguan (mahkota phoenix) dan jubah bersulam phoenix.",
+  "storage_location": {
+    "name": "Rumah Abu Keluarga Han (韓)",
+    "city": "Surabaya, Jawa Timur, Indonesia"
+  },
+  "data_status": {
+    "credibility": "Analisis — Data belum dikonfirmasi secara resmi oleh pemilik",
+    "source": "Analisis visual dan pembacaan teks inskripsi",
+    "notes": "Informasi resmi dari pihak keluarga Han belum diperoleh. Seluruh dimensi dan berat merupakan estimasi peneliti."
+  },
+  "dimensions": {
+    "height_with_frame_cm": "± 140-160 cm (estimasi)",
+    "width_with_frame_cm": "± 90-110 cm (estimasi)",
+    "weight_kg": "± 8-15 kg (estimasi)"
+  },
+  "inscription": {
+    "hanzi": "嗇四特星有春淑星月世英懼...。十愛官偽陸于第兄林昌品崇棠。山庭中規模萬廬回福福福身儀華文。浩氣道加廉記傳修廉成能廠諺淵傳。春月，世前。晉，密，昌，傳。",
+    "creation_date": "Bulan Musim Semi, generasi terdahulu (sekitar akhir Dinasti Qing, 1850-1900 Masehi)",
+    "translation": "Mendiang suami adalah seorang pejabat tinggi berintegritas tinggi dan jujur, yang menjadi teladan bagi keluarga. Istrinya adalah wanita berbudi luhur dan bijaksana yang mendampingi suami serta mendidik anak-anaknya dengan kasih sayang."
+  },
+  "function_and_usage": "Hanya digunakan sebagai hiasan rumah/aula keluarga; tidak digunakan untuk ritual keagamaan atau maksud ritual lainnya.",
+  "acquisition_source": "Koleksi Rumah Abu Keluarga Han (韓), Surabaya",
+  "conservation_status": "Kondisi fisik stabil, namun lukisan tidak dilindungi penutup kaca atau pelindung apapun sehingga mulai kotor berdebu dan beberapa bagian warna mulai sedikit pudar."
+}
