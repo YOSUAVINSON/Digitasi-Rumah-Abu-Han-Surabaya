@@ -1,95 +1,97 @@
 {
-  "paradata_skema_umum": {
-    "penjelasan": "Paradata adalah data tentang proses digitalisasi itu sendiri (bagaimana replika digital dibuat). Ini mencakup info alat, metode photogrammetry, penyuntingan mesh, hingga perlakuan etis terhadap artefak fisik asli selama proses perekaman.",
-    "standar_akademis": "The London Charter for the Computer-based Visualisation of Cultural Heritage"
+  "hardware_specifications": {
+    "device_model": "iPhone 12 Pro Max",
+    "sensor_details": "12 MP Main Camera Sensor, 1.7µm pixel size, f/1.6 aperture, 26mm equivalent focal length"
   },
-  "pedupaan-perunggu": {
-    "metode_digitalisasi": "Photogrammetry 3D (3D Reconstruction from Images)",
-    "peralatan_dan_perangkat_keras": {
-      "kamera": "[Contoh: DSLR Canon EOS 200D / Kamera Smartphone iPhone 13 Pro]",
-      "lensa": "[Contoh: Lensa Prime 50mm f/1.8 atau Lensa Bawaan]",
-      "pencahayaan": "[Contoh: Ring Light LED 2 Titik dengan Diffuser / Cahaya Alami Ruangan]",
-      "alat_bantu": "[Contoh: Turntable manual, Statif/Tripod, Penanda Skala/Scale Bar]"
+  "fangding-pendupaan": {
+    "capture_phase": {
+      "camera_application": "Pro Camera",
+      "exposure_settings": "ISO 800, focal length 26mm, exposure value 0ev, aperture f/1.6, shutter speed 1/25 s",
+      "file_format": "JPEG 12 MP (3024 x 4032 piksel)",
+      "total_photos_captured": "50 foto",
+      "shoot_angles": "Melakukan pemotretan 360 derajat melingkar penuh, orbit dari samping hingga ke atas.",
+      "lighting_condition": "Pencahayaan alami (Natural lighting)",
+      "treatment": "Tidak menyentuh atau memindahkan benda asli selama pemotretan."
     },
-    "fase_perekaman_mentah_raw": {
-      "jumlah_foto_mentah": "[Contoh: 85 Foto]",
-      "format_file_asal": "[Contoh: RAW .CR2 / JPEG High-Res]",
-      "resolusi_per_gambar": "[Contoh: 6000 x 4000 piksel (24 MP)]",
-      "sudut_perekaman": "[Contoh: 3 putaran melingkar penuh (tinggi mata, sudut atas 45 derajat, sudut bawah 30 derajat)]"
-    },
-    "fase_pemrosesan_software": {
-      "perangkat_lunak_rekonstruksi": "[Contoh: RealityCapture / Polycam / Meshroom / Luma AI]",
-      "metode_alignment": "[Contoh: High Accuracy Feature Detection]",
-      "jumlah_point_cloud_mentah": "[Contoh: 1.200.000 titik (High Dense Cloud)]",
-      "jumlah_polygon_mentah_raw_mesh": "[Contoh: 800.000 Polygons]"
-    },
-    "fase_penyuntingan_dan_optimasi": {
-      "perangkat_lunak_editor_mesh": "[Contoh: Blender 4.0 / MeshLab]",
-      "tindakan_editing": [
-        "Pembersihan noise/mesh melayang di sekitar objek",
-        "Penambalan lubang otomatis (Hole Filling) pada dasar bejana",
-        "Penyederhanaan jumlah polygon (Decimation/Retopology) untuk performa web"
+    "processing_phase": {
+      "photogrammetry_software": "Meshroom",
+      "raw_polycount": "1.005.577",
+      "raw_mesh_file_size": "115 MB",
+      "remeshing_software": "Instant Meshes",
+      "editing_software": "Blender 4.4",
+      "editing_actions": [
+        "Pembersihan noise dan mesh melayang di sekitar objek",
+        "Penambalan lubang otomatis pada bagian dasar bejana",
+        "Baking tekstur dari model high-poly ke model low-poly hasil remesh",
+        "Perbaikan detail warna permukaan menggunakan teknik Clone Stamp di Blender"
       ],
-      "optimasi_tekstur": "[Contoh: Kompresi tekstur menjadi 2K (2048x2048 px) format JPG, baking peta normal (Normal Map) untuk mempertahankan detail ukiran]"
+      "special_texture_treatment": "Mengambil sampel tekstur dari bagian sisi depan bejana kemudian diduplikasi ke tiga sisi lainnya karena tekstur hasil fotogrametri asli sangat gelap akibat pencahayaan ruangan dan tidak terdeteksi dengan baik."
     },
-    "spesifikasi_hasil_akhir": {
-      "format_file_akhir": "GLB (.glb)",
-      "jumlah_polygon_akhir": "[Contoh: 25.000 Polygons (Low-Poly optimized untuk WebAR)]",
-      "ukuran_file_akhir": "[Contoh: 4.8 MB]",
-      "tingkat_kemiripan_visual": "[Contoh: Sangat Tinggi (Akurat secara visual)]"
-    },
-    "perlakuan_dan_etika_artefak_fisik": {
-      "kontak_fisik": "[Contoh: Non-kontak penuh (tidak ada sensor fisik yang menyentuh artefak)]",
-      "keamanan_artefak": "[Contoh: Artefak diletakkan di atas alas beludru lembut pada turntable untuk mencegah gesekan]",
-      "kondisi_lingkungan": "[Contoh: Suhu ruangan stabil 24 derajat Celcius, lampu LED dingin digunakan untuk menghindari paparan panas yang dapat merusak material kuno]"
+    "final_output": {
+      "file_format": "GLB (.glb)",
+      "final_polycount": "78.198",
+      "final_file_size": "21,3 MB",
+      "texture_resolution": "2K (2048 x 2048 piksel) format PNG (Diffuse & Normal Maps)"
     }
   },
   "lukisan-1": {
-    "metode_digitalisasi": "High-Resolution Image Capture & 3D Frame Modeling",
-    "peralatan_dan_perangkat_keras": {
-      "kamera": "[Contoh: Kamera Mirrorless Sony A7 III / Scanner Flatbed]",
-      "lensa": "[Contoh: Lensa Macro 90mm untuk detail tekstur sutra]",
-      "pencahayaan": "[Contoh: 2 Softbox Studio Light sudut 45 derajat untuk menghindari pantulan kaca bingkai]"
+    "capture_phase": {
+      "camera_application": "Pro Camera",
+      "exposure_settings": "ISO 500, focal length 26mm, exposure value 0ev, aperture f/1.6, shutter speed 1/33 s",
+      "file_format": "JPEG 12 MP (3024 x 4032 piksel)",
+      "total_photos_captured": "79 foto",
+      "shoot_angles": "Hanya mengambil gambar dari sudut menyamping kiri-kanan dan atas-bawah.",
+      "lighting_condition": "Pencahayaan alami (Natural lighting)",
+      "treatment": "Tidak menyentuh atau memindahkan benda asli selama pemotretan."
     },
-    "fase_perekaman_mentah_raw": {
-      "jumlah_foto_mentah": "[Contoh: 1 Foto Utama Resolusi Tinggi + 5 Foto Detail Dekat]",
-      "format_file_asal": "[Contoh: RAW .ARW]",
-      "resolusi_per_gambar": "[Contoh: 7952 x 5304 piksel (42 MP)]"
+    "processing_phase": {
+      "photogrammetry_software": "Meshroom",
+      "raw_polycount": "2.304.399",
+      "raw_mesh_file_size": "199 MB",
+      "remeshing_software": "Instant Meshes",
+      "editing_software": "Blender 4.4",
+      "editing_actions": [
+        "Pembersihan noise dan merapikan bidang kanvas serta bingkai",
+        "Baking tekstur dari model high-poly ke model low-poly hasil remesh",
+        "Perbaikan detail tekstur lukisan menggunakan teknik Clone Stamp di Blender untuk bagian warna yang memudar"
+      ],
+      "special_texture_treatment": "Tidak ada perlakuan khusus."
     },
-    "fase_penyuntingan_dan_optimasi": {
-      "perangkat_lunak_editor": "[Contoh: Adobe Photoshop (untuk koreksi warna dan kontras sesuai lukisan asli)]",
-      "pemodelan_3d_frame": "[Contoh: Menggunakan Blender untuk membuat model bingkai kayu 3D tipis, lalu menempelkan gambar lukisan hasil edit sebagai tekstur utama]"
-    },
-    "spesifikasi_hasil_akhir": {
-      "format_file_akhir": "GLB (.glb)",
-      "ukuran_file_akhir": "[Contoh: 2.1 MB]"
-    },
-    "perlakuan_dan_etika_artefak_fisik": {
-      "keamanan_artefak": "[Contoh: Lukisan tidak diturunkan dari bingkai pelindungnya untuk mencegah kelembapan udara luar merusak serat sutra sutra tua]"
+    "final_output": {
+      "file_format": "GLB (.glb)",
+      "final_polycount": "1.828",
+      "final_file_size": "21,9 MB",
+      "texture_resolution": "2K (2048 x 2048 piksel) format PNG (Diffuse & Normal Maps)"
     }
   },
   "lukisan-2": {
-    "metode_digitalisasi": "High-Resolution Image Capture & 3D Frame Modeling",
-    "peralatan_dan_perangkat_keras": {
-      "kamera": "[Contoh: Kamera Mirrorless Sony A7 III]",
-      "lensa": "[Contoh: Lensa Macro 90mm]",
-      "pencahayaan": "[Contoh: 2 Softbox Studio Light dengan cross-polarization]"
+    "capture_phase": {
+      "camera_application": "Pro Camera",
+      "exposure_settings": "ISO 1000, focal length 26mm, exposure value 0ev, aperture f/1.6, shutter speed 1/25 s",
+      "file_format": "JPEG 12 MP (3024 x 4032 piksel)",
+      "total_photos_captured": "70 foto",
+      "shoot_angles": "Hanya mengambil gambar dari sudut menyamping kiri-kanan dan atas-bawah.",
+      "lighting_condition": "Pencahayaan alami (Natural lighting)",
+      "treatment": "Tidak menyentuh atau memindahkan benda asli selama pemotretan."
     },
-    "fase_perekaman_mentah_raw": {
-      "jumlah_foto_mentah": "[Contoh: 1 Foto Utama + 4 Foto Close-up Kaligrafi]",
-      "format_file_asal": "[Contoh: RAW .ARW]",
-      "resolusi_per_gambar": "[Contoh: 7952 x 5304 piksel]"
+    "processing_phase": {
+      "photogrammetry_software": "Meshroom",
+      "raw_polycount": "1.896.783",
+      "raw_mesh_file_size": "220 MB",
+      "remeshing_software": "Instant Meshes",
+      "editing_software": "Blender 4.4",
+      "editing_actions": [
+        "Pembersihan noise dan merapikan bidang kanvas serta bingkai",
+        "Baking tekstur dari model high-poly ke model low-poly hasil remesh",
+        "Perbaikan detail tekstur lukisan menggunakan teknik Clone Stamp di Blender untuk bagian warna yang memudar"
+      ],
+      "special_texture_treatment": "Tidak ada perlakuan khusus."
     },
-    "fase_penyuntingan_dan_optimasi": {
-      "perangkat_lunak_editor": "[Contoh: Adobe Photoshop & Blender]",
-      "pemodelan_3d_frame": "[Contoh: Pembuatan bidang kanvas virtual di Blender dengan tekstur resolusi tinggi]"
-    },
-    "spesifikasi_hasil_akhir": {
-      "format_file_akhir": "GLB (.glb)",
-      "ukuran_file_akhir": "[Contoh: 2.3 MB]"
-    },
-    "perlakuan_dan_etika_artefak_fisik": {
-      "keamanan_artefak": "[Contoh: Proses pengambilan foto dilakukan tanpa menggunakan lampu flash berspektrum UV tinggi untuk mencegah pemudaran pigmen warna alami lukisan kuno]"
+    "final_output": {
+      "file_format": "GLB (.glb)",
+      "final_polycount": "1.828",
+      "final_file_size": "22.4 MB",
+      "texture_resolution": "2K (2048 x 2048 piksel) format PNG (Diffuse & Normal Maps)"
     }
   }
 }
