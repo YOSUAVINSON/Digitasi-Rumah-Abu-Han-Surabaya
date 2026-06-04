@@ -1,6 +1,6 @@
  APLIKASI DATA SEMANTIK DALAM PROSES DIGITASI ARTEFAK BUDAYA: STUDI KASUS RUMAH ABU HAN
 
-Proyek ini merupakan bagian dari luaran praktis penelitian Tugas Akhir yang bertujuan untuk melakukan digitalisasi, penyimpanan data (metadata), serta visualisasi interaktif dari objek cagar budaya/artefak sejarah milik rumah abu keluarga Han.
+Proyek ini merupakan bagian dari luaran penelitian Tugas Akhir yang bertujuan untuk melakukan digitasi, penyimpanan data (metadata), serta visualisasi interaktif dari objek cagar budaya/artefak sejarah milik rumah abu keluarga Han.
 
  Artefak yang Didigitasi
 
